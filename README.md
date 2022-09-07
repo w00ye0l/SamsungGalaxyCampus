@@ -9,8 +9,7 @@
 ## 😉 참여자 💯
 
 <br/>
-<a href="https://github.com/w00ye0l/SamsungGalaxyCampus/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=w00ye0l/SamsungGalaxyCampus" />
+<a href="https://github.com/w00ye0l/SamsungGalaxyCampus/graphs/contributors">  <img src="https://contrib.rocks/image?repo=w00ye0l/SamsungGalaxyCampus" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
