@@ -31,8 +31,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 - ### banner
 
-![](README.assets/KakaoTalk_20220907_174527958.jpg)
-
 <br/>
 
 ## Part 2.
@@ -40,8 +38,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 ![image-20220907011931415](README.assets/image-20220907011931415.png)
 
 - ### items
-
-![제목 없음](README.assets/제목 없음.png)
 
 <br/>
 
@@ -54,5 +50,3 @@ Made with [contrib.rocks](https://contrib.rocks).
 - ### steps
 
 - ### certification
-
-![3](README.assets/3.png)
