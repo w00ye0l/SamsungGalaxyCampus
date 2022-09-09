@@ -1,0 +1,42 @@
+@media (max-width: 1555px) {   /*화면이 작을때 */
+  .navbar-large{
+    display: none;
+  }
+}
+@media (min-width: 1555px) {    /*화면이 클때 */
+  .navbar-small{
+    display: none;
+  }
+  /* .content {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  } */
+}
+.banner_img {
+  background-image: url("../../image/banner_no_text.webp");
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top : 5rem;
+  width:1700px;
+  height:45rem;
+}
+.middle_nav_blank {
+  width:200px;
+}
+.nav-item>a:hover{
+  color:white;
+  background-color: black;
+}
+.entrance_btn {
+  color:rgba(0,0,0,100);
+  padding:5px 25px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.sign_up {
+  margin-top: 15px;
+}
