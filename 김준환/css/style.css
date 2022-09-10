@@ -40,3 +40,13 @@
 .sign_up {
   margin-top: 15px;
 }
+.student_btn {
+  width:5rem;
+}
+.banner_box {
+  border:3px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 3%;
+  width:70rem;
+}
