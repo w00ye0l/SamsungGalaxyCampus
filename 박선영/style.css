@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -1px;
+}
+
+/* 작을 때 */
+@media (max-width: 1472px) {
+  .sun0-navbar {
+    height: 58px;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  /* 네비게이션 바 */
+
+  .logo {
+    height: 1rem;
+  }
+
+  .nav-item-size {
+    font-size: 0.8rem;
+  }
+}
+
+/* 클 때 */
+@media (min-width: 1472px) {
+  .sun0-navbar {
+    height: 80px;
+  }
+
+  .navbar-expand-lg {
+    display: none;
+  }
+
+  /* 네비게이션 바 */
+
+  .logo {
+    height: 1.1rem;
+  }
+
+  .nav-item-size {
+    font-size: 0.9rem;
+  }
+}
+
+/* 제일 위에 까만색 바 */
+.top-bar {
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar-text {
+  color: rgb(251, 188, 4);
+}
+
+.top-bar a:hover {
+  color: white;
+}
+
+
+
+.navbar-brand {
+
+}
+
+.navbar-nav-list {
+  display: flex;
+}
+
+.nav-item-size {
+  font-size: 0.9rem;
+}
+
+
+/* 돋보기 장바구니 개인정보 */
+.nav-right {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-right-item {
+
+}
+
+/* 배너 */
+
+.banner {
+  background-image: url("../image/banner.jpg");
+  background-repeat: none;
+  background-position: center;
+  height: 639px;
+}
