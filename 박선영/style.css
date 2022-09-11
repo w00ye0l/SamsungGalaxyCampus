@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -1px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 제일 위에 까만색 바 */
+.top-bar {
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar-text {
+  color: rgb(251, 188, 4);
+}
+
+.top-bar a:hover {
+  color: white;
+}
+
+/* 네비바 */
+/* 화면이 클 때  */
+@media (min-width: 1498px) {
+  .s-inner {
+    max-width: 1610px;
+    padding: 0 50px;
+  }
+
+  .logo {
+    height: 1.2rem;
+  }
+
+  .nav-list {
+      display: flex;
+  }
+  .nav-item a {
+    font-size: 15px;
+  }
+  
+  .blank {
+    width: 175px;
+  }
+
+  .nav-list-icon {
+    display: none;
+  }
+
+  .nav-item-right {
+    padding: 0 5px;
+  }
+}
+
+/* 화면 중간 크기 */
+/* 네비바 글씨 크기 줄이기, 로고 오른쪽 패딩 줄이기, 로고 크기 줄이기*/
+@media (max-width: 1610px) {
+  .s-inner {
+    max-width: 1498px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    height: 1rem;
+  }
+
+  .nav-item a {
+    font-size: 13px;
+  }
+}
+
+/* 화면이 작을 때 */
+@media (max-width: 1498px) {
+  .s-inner {
+    height: 30px;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-user-icon {
+    display: none;
+  }
+
+  .blank {
+    width: 210px;
+  }
+
+  .nav-item-right {
+    padding: 15px 5px;
+  }
+}
+
+.s-inner {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-right: 50px;
+  
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list-right {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  padding: 25px 0 23px;
+}
+
+.nav-item a,
+.nav-item-right a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 7px;
+  border-radius: 50px;
+}
+
+.nav-item a:hover {
+  color: white;
+  background-color: black;
+}
+
+.nav-item-right a:hover {
+  color: black;
+}
+
+/* 배너 */
+/* 화면 가장 클 때 */
+@media (min-width: 1920px){
+  /* 배너 글자 크기 조정 */
+  .banner-text-box {
+    top: 26%;
+    font-size: 24px;
+  }
+
+  .banner-blank {
+    height: 160px;
+  }
+
+    /* 입장하기 버튼 */
+  .banner-button {
+    width: 30%;
+    padding: 0.4vw 0;
+    border-radius: 3vw;
+    text-align: center;
+    background-color: white;
+    color:rgb(12, 133, 255);
+    margin:auto;
+  }
+  
+  /* 지금 가입하세요 어쩌구 */
+  .banner-join {
+    margin-top: 0.9vw;
+  }
+  .banner-join>p {
+    display: inline-block;
+  }
+  .banner-join-text{
+    padding-right: 15px;
+    margin: 0;
+  }
+}
+
+/* 중간 */
+@media (max-width: 1920px){
+  /* 배너 글자 크기 조정 */
+  .banner-text-box {
+    top: 26%;
+    font-size: 1.2vw;
+  }
+
+  .banner-blank {
+    height: 8vw;
+  }
+
+  /* 입장하기 버튼 */
+  .banner-button {
+    width: 30%;
+    padding: 0.4vw 0;
+    border-radius: 3vw;
+    text-align: center;
+    background-color: white;
+    color:rgb(12, 133, 255);
+    margin:auto;
+  }
+
+  /* 지금 가입하세요 어쩌구 */
+  .banner-join {
+    margin-top: 0.9vw;
+  }
+  .banner-join>p {
+    display: inline-block;
+  }
+  .banner-join-text {
+    margin-right: 0.8vw;
+  }
+}
+
+/* 화면 가장 작을 때 (모바일) */
+@media (max-width: 880px) {
+  /* 배너 글씨 크게 설정, 배너 글씨 위치 조정 */
+  .banner-text-box {
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    font-size: 3.7vw;
+  }
+
+  .banner-blank {
+    height: 18vw;
+  }
+
+  /* 배너 이미지 크게 설정 */
+  .banner img {
+    height:100vw;
+    object-fit: cover;
+  }
+
+  /* 입장하기 버튼 */
+  .banner-button {
+    width: 25%;
+    padding: 1.2vw 0;
+    border-radius: 5vw;
+    text-align: center;
+    background-color: white;
+    color:rgb(12, 133, 255);
+    margin:auto;
+  }
+
+  /* 지금 가입하세요 어쩌구 */
+  .banner-join {
+    margin-top: 3.5vw;
+    font-size: 3vw;
+  }
+  .banner-join>p {
+    display: block;
+  }
+}
+
+
+.containers {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  position: relative;
+}
+
+
+.banner img {
+  max-width: 100%;
+}
+
+/* 요소를 가운데 두려면 부모 요소에 relative, 자식 요소에 absolute 설정하고
+top: 50% left 50% -> 왼쪽 위 좌표가 가운데로 옴
+transform: translate(-50%, -50%) -> 요소가 x, y 축을 50% 이동함*/
+.banner-text-box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+}
+
+.banner-text-box>p {
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+.banner-join {
+  text-align: center;
+}
+
+.banner-join a {
+  color: white;
+  text-decoration-line: underline;
+}
+.banner-join a:hover {
+  color: white;
+}
+.banner-join-text,
+.banner-join-text~p {
+  margin-bottom: 0;
+}
+
+/* 2페이지
+.sec {
+  height: 10000px;
+  background-image: url("https://images.samsung.com/kdp/event/galaxycampus/gate_renewal/membership_bg_pc.jpg");
+} */
