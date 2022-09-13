@@ -150,7 +150,6 @@
   color: black;
 }
 
-/* 배너 */
 /* 화면 가장 클 때 */
 @media (min-width: 1920px){
   /* 배너 글자 크기 조정 */
@@ -185,18 +184,169 @@
     padding-right: 15px;
     margin: 0;
   }
+
+  /**********************************************/
+  /* 2페이지 타이틀*/
+  .sec {
+    height: 1000px;
+    background-image: url("https://images.samsung.com/kdp/event/galaxycampus/gate_renewal/membership_bg_pc.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-size: 1920px 1000px; */
+    background-size: contain;
+  }
+
+  .sec-cardlist {
+    justify-content: center;
+  }
+  .sec-title-box {
+    padding-top: 90px;
+  }
+  .sec-title {
+    font-size: 43px;
+    margin-bottom: 10px;
+  }
+  .sec-subtitle {
+    font-size: 26px;
+    padding-bottom: 70px;
+  }
+
+  /* 2페이지 - 카드 리스트 */
+  .sec-card-body {
+    width: 400px;
+    height: 520px;
+    margin: 0 20px;
+    background: linear-gradient(to bottom, white, rgb(242, 251, 255));
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 8px rgba(23, 67, 102, 0.15);
+  }
+  
+  .sec-card-title {
+    padding-top: 30px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .sec-card-body>hr {
+    width: 20px;
+    margin: 15px auto;
+  }
+
+  .sec-card-content {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .sec-card-num {
+    padding: 6px 13px;
+    font-size: 22px;
+    font-weight: bold;
+    top: -8px;
+  }
+  
+  .sec-card-num::after {
+    top: 0;
+    right: -8px;
+    border-bottom: 7px solid #004e73;
+    border-right: 8px solid transparent;
+  }
+
+  .sec-card-img1 {
+    width: 300px;
+  }
+  
+  .sec-card-img2 {
+    width: 220px;
+  }
+
+  .sec-card-subtext {
+  margin-top: 40px;
+  font-size: 14px;
+  }
+
+  .sec-card-subtext p {
+    max-width: 400px;
+  }
+
+  /**********************************************/
+  /* 3페이지 버튼 */
+  .trd-container {
+    height: 1000px;
+  }
+
+  .trd-button-list {
+    top: -15px;
+  }
+
+  .trd-button {
+    width: 270px;
+    height: 110px;
+    margin: 0 15px;
+    border-radius: 0 0 30px 30px;
+    font-size: 30px;
+  }
+
+  .trd-button::after {
+    right: -8px;
+    border-bottom: 15px solid #747474;
+    border-right: 8px solid transparent;
+  }
+  /* 3페이지 타이틀*/
+  .trd-title-box {
+    padding-top: 250px;
+  }
+  .trd-title {
+    font-size: 50px;
+  }
+  .trd-sub-title {
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+
+  /* 3페이지 카드리스트 */
+  .trd-card-title {
+    margin-bottom: 30px;
+    max-width: 400px;
+  }
+  
+  .trd-card-title>div {
+    display: inline-block;
+    padding: 3px 18px;
+    border-radius: 30px;
+    border: 1px solid #0070f4;
+    color:#0070f4;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .trd-card-title>p {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .trd-img {
+    width: 400px;
+  }
+  
+  .trd-arrow {
+    width: 18px;
+    margin: 0 40px;
+  }
 }
 
 /* 중간 */
-@media (max-width: 1920px){
+@media (max-width: 1920px) and (min-width:880px){
   /* 배너 글자 크기 조정 */
   .banner-text-box {
     top: 26%;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
   }
 
   .banner-blank {
-    height: 8vw;
+    height: 8.3333vw;
   }
 
   /* 입장하기 버튼 */
@@ -218,7 +368,158 @@
     display: inline-block;
   }
   .banner-join-text {
-    margin-right: 0.8vw;
+    margin-right: 0.7813vw;
+  }
+  /**********************************************/
+  /* 2페이지 타이틀*/
+  .sec {
+    height: 54vw;
+    background-image: url("https://images.samsung.com/kdp/event/galaxycampus/gate_renewal/membership_bg_pc.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-size: 1920px 1000px; */
+    background-size: contain;
+  }
+  .sec-title-box {
+    padding-top: 4.6875vw;
+  }
+  .sec-title {
+    font-size: 2.2396vw;
+    margin-bottom: 0.5208vw;
+  }
+  .sec-subtitle {
+    font-size: 1.3542vw;
+    padding-bottom: 3.6458vw;
+  }
+
+  /* 2페이지 - 카드 리스트 */
+  .sec-cardlist {
+    justify-content: center;
+  }
+  .sec-card-body {
+    width: 20.8333vw;
+    height: 27.0833vw;
+    margin: 0 1.0417vw;
+    background: linear-gradient(to bottom, white, rgb(242, 251, 255));
+    border-radius: 1.5625vw;
+    box-shadow: 0.2604vw 0.2604vw 0.7813vw 0.4167vw rgba(23, 67, 102, 0.15);
+  }
+
+  .sec-card-title {
+    padding-top: 1.5625vw;
+    font-size: 1.3542vw;
+    font-weight: bold;
+  }
+
+  .sec-card-body>hr {
+    width: 1.0417vw;
+    margin: 0.7813vw auto;
+  }
+
+  .sec-card-content {
+    font-size: 0.9375vw;
+    margin-bottom: 2.6042vw;
+  }
+
+  .sec-card-num {
+    padding: 0.3125vw 0.6771vw;
+    font-size: 1.1458vw;
+    font-weight: bold;
+    top: -0.4167vw;
+  }
+  
+  .sec-card-num::after {
+    top: 0;
+    right: -0.4167vw;
+    border-bottom: 0.3646vw solid #004e73;
+    border-right: 0.4167vw solid transparent;
+  }
+
+  .sec-card-img1 {
+    width: 15.6250vw;
+  }
+  
+  .sec-card-img2 {
+    width: 11.4583vw;
+  }
+
+  .sec-card-subtext {
+    margin-top: 2.0833vw;
+    font-size: 0.7292vw;
+    }
+
+
+  .sec-card-subtext p {
+    max-width: 20.8333vw;
+  }
+
+  /**********************************************/
+  /* 3페이지 버튼 */
+  .trd-container {
+    height: 52.0833vw;
+  }
+  
+  .trd-button-list {
+    top: -0.7813vw;
+  }
+  
+  .trd-button {
+    width: 14.0625vw;
+    height: 5.7292vw;
+    margin: 0 0.7813vw;
+    border-radius: 0 0 1.5625vw 1.5625vw;
+    font-size: 1.5625vw;
+  }
+  
+  .trd-button::after {
+    right: -0.4167vw;
+    border-bottom: 0.7813vw solid #747474;
+    border-right: 0.4167vw solid transparent;
+  }
+
+  /* 3페이지 타이틀*/
+  .trd-title-box {
+    padding-top: 13.0208vw;
+  }
+  .trd-title {
+    font-size: 2.6042vw;
+  }
+  .trd-sub-title {
+    font-size: 1.0417vw;
+    margin-bottom: 3.6458vw;
+  }
+
+  /* 3페이지 카드리스트 */
+  .trd-card-title {
+    margin-bottom: 1.5625vw;
+    max-width: 20.8333vw;
+  }
+  
+  .trd-card-title>div {
+    display: inline-block;
+    padding: 0.1563vw 0.9375vw;
+    border-radius: 1.5625vw;
+    border: 0.0521vw solid #0070f4;
+    color:#0070f4;
+    font-size: 0.9375vw;
+    font-weight: bold;
+  }
+  
+  .trd-card-title>p {
+    display: inline-block;
+    font-size: 1.1458vw;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 0.5208vw;
+  }
+  
+  .trd-img {
+    width: 20.8333vw;
+  }
+  
+  .trd-arrow {
+    width: 0.9375vw;
+    margin: 0 2.0833vw;
   }
 }
 
@@ -261,16 +562,165 @@
   .banner-join>p {
     display: block;
   }
+  
+  /**********************************************/
+  /* 2페이지 타이틀*/
+  .sec-container {
+    height: 120vw;
+    background-color: white;
+    background-image: none;
+  }
+  .sec-title-box {
+    padding-top: 13vw;
+  }
+  .sec-title {
+    font-size: 5.3409vw;
+    margin-bottom: 1.4773vw;
+  }
+  .sec-subtitle {
+    font-size: 3.4091vw;
+    padding-bottom: 7.9545vw;
+  }
+
+  
+  /* 2페이지 - 카드 리스트 */
+  .sec-cardlist {
+    justify-content: start;
+  }
+  .sec-card-body {
+    width: 45.4545vw;
+    height: 59.0909vw;
+    margin: 0 2.2727vw;
+    background: linear-gradient(to bottom, white, rgb(242, 251, 255));
+    border-radius: 3.4091vw;
+    box-shadow: 0.5682vw 0.5682vw 1.7045vw 0.9091vw rgba(23, 67, 102, 0.15);
+  }
+  
+  .sec-card-title {
+    padding-top: 3.4091vw;
+    font-size: 2.9545vw;
+    font-weight: bold;
+  }
+
+  .sec-card-body>hr {
+    width: 2.2727vw;
+    margin: 1.7045vw auto;
+  }
+
+  .sec-card-content {
+    font-size: 2.0455vw;
+    margin-bottom: 5.6818vw;
+  }
+
+  .sec-card-num {
+    padding: 0.6818vw 1.4773vw;
+    font-size: 2.5000vw;
+    font-weight: bold;
+    top: -0.9091vw;
+  }
+  
+  .sec-card-num::after {
+    top: 0;
+    right: -0.9091vw;
+    border-bottom: 0.7955vw solid #004e73;
+    border-right: 0.9091vw solid transparent;
+  }
+
+  .sec-card-img1 {
+    width: 34.0909vw;
+  }
+  
+  .sec-card-img2 {
+    width: 25.0000vw;
+  }
+
+  .sec-card-subtext {
+  margin-top: 4.5455vw;
+  font-size: 1.9vw;
+  }
+
+  .sec-card-subtext p {
+    max-width: 45.4545vw;
+  }
+
+  /**********************************************/
+  /* 3페이지 버튼 */
+  .trd-container {
+    height: 113.6364vw;
+  }
+  
+  .trd-button-list {
+    top: -1.7045vw;
+  }
+  
+  .trd-button {
+    width: 30.6818vw;
+    height: 12.5000vw;
+    margin: 0 1.7045vw;
+    border-radius: 0 0 3.4091vw 3.4091vw;
+    font-size: 3.4091vw;
+  }
+  
+  .trd-button::after {
+    right: -0.9091vw;
+    border-bottom: 1.7045vw solid #747474;
+    border-right: 0.9091vw solid transparent;
+  }
+  /* 3페이지 타이틀*/
+  .trd-title-box {
+    padding-top: 28.4091vw;
+  }
+  .trd-title {
+    font-size: 5.6818vw;
+  }
+  .trd-sub-title {
+    font-size: 2.2727vw;
+    margin-bottom: 7.9545vw;
+  }
+
+  /* 3페이지 카드리스트 */
+  .trd-card-title {
+    margin-bottom: 3.4091vw;
+    max-width: 45.4545vw;
+  }
+  
+  .trd-card-title>div {
+    display: inline-block;
+    padding: 0.3409vw 2.0455vw;
+    border-radius: 3.4091vw;
+    border: 0.1136vw solid #0070f4;
+    color:#0070f4;
+    font-size: 2.0455vw;
+    font-weight: bold;
+  }
+  
+  .trd-card-title>p {
+    display: inline-block;
+    font-size: 2.5000vw;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 1.1364vw;
+  }
+  
+  .trd-img {
+    width: 45.4545vw;
+  }
+  
+  .trd-arrow {
+    width: 2.0455vw;
+    margin: 0 4.5455vw;
+  }
 }
-
-
+/* 
 .containers {
   display: flex;
   justify-content: center;
-}
+} */
 
 .banner {
-  position: relative;
+  position: relative;  
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 
@@ -306,16 +756,123 @@ transform: translate(-50%, -50%) -> 요소가 x, y 축을 50% 이동함*/
   color: white;
   text-decoration-line: underline;
 }
+
 .banner-join a:hover {
   color: white;
 }
+
 .banner-join-text,
 .banner-join-text~p {
   margin-bottom: 0;
 }
 
-/* 2페이지
-.sec {
-  height: 10000px;
-  background-image: url("https://images.samsung.com/kdp/event/galaxycampus/gate_renewal/membership_bg_pc.jpg");
-} */
+/* 2페이지 */
+.sec-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-title-box {
+  text-align: center;
+}
+
+.sec-title {
+  color: #00618f;
+  font-weight: bold;
+}
+
+.sec-subtitle {
+  font-weight: bold;
+}
+
+/* 2페이지 - 카드 리스트 */
+.sec-cardlist {
+  text-align: center;
+  display: flex;
+}
+
+.sec-card-title {
+  margin-bottom: 0;
+}
+
+.sec-card {
+  position: relative;
+}
+
+.sec-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-card-num {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #007cb7;
+  color: white;
+}
+
+.sec-card-num::after {
+  position: absolute;
+  content:"";
+}
+
+.sec-card-subtext p{
+  color: gray;
+  margin: 0 auto;
+}
+
+/* 3페이지 */
+.trd-container {
+  position: relative;
+  background-color: #eef6f8;
+}
+
+.trd-button-list {
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.trd-button-list a{
+  text-decoration: none;
+}
+
+.trd-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d5d5;
+  color: #737373;
+  font-weight: bold;
+}
+
+.trd-button::after {
+  position: absolute;
+  content:"";
+  top: 0;
+}
+ /* #2472cc */
+
+.trd-title-box {
+  text-align: center;
+}
+.trd-title {
+  font-weight: bold;
+}
+.trd-sub-title {
+  font-size: 20px;
+}
+
+/* 3페이지 카드리스트 */
+.trd-cardlist {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
