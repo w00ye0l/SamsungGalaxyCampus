@@ -8,12 +8,45 @@
   border: 0;
 }
 
-.banner {
-  background-image: url("../image/banner.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+section {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
-.card-text {
-  padding: 3%;
+.img-stretch {
+  background-color: #eef6f8;
+  background-image: url("../image/part2_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.card-bg {
+  background-color: rgb(245, 250, 253);
+}
+
+.card-shadow {
+  box-shadow: 5px 10px 20px 1px rgb(146, 146, 146);
+}
+
+.card-img {
+  width: auto;
+  height: 15vw;
+}
+
+.item-btn {
+  box-shadow: 1px 3px 5px 1px #444;
+}
+
+.item-btn::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 0;
+  right: -16%;
+  border-bottom: 4px solid rgb(0, 58, 82);
+  border-top: 4px solid transparent;
+  border-left: 4px solid rgb(0, 58, 82);
+  border-right: 4px solid transparent;
 }
