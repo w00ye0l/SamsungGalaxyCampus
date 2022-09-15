@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -1px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 처음 제일 위에 검은색 바 */
+.top-bar{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 로고 */
+.logo{
+  height: 1rem;
+}
+
+
+section {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.background-img {
+  background-image: url("../image/banner_no_text.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 800px;
+}
